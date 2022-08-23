@@ -24,22 +24,22 @@
         <span class="steps_name">[Назва компанії]</span>
         <div class="steps_progress">
             <div class="steps_progress-nav">
-                <a href="#" class="steps_back">Крок 4 <small>/ 16</small></a>
+                <a href="#" class="steps_back">Крок 6 <small>/ 16</small></a>
                 <b>Ідентифікація</b>
             </div>
-            <div class="steps_progress-line" style="--progress: 25%"></div>
+            <div class="steps_progress-line" style="--progress: 35%"></div>
         </div>
         <div class="steps-content">
             <form class="steps_form">
-                <div class="section_title">Вкажіть ваші контакти:</div>
+                <div class="section_title">Вкажіть інформацію про вашу діяльність:</div>
                 <div class="steps_column">
                     <div class="col-1">
-                        <b>Назва компанії</b>
+                        <b>Географія вашої діяльності</b>
                     </div>
                     <div class="col-2">
                         <div class="input_row">
                             <div class="input_wrap">
-                                <input type="text" placeholder="Сайт-резюме" maxlength="10" class="length_box">
+                                <textarea placeholder="У яких містах та карїнах ви працюєте" maxlength="300" class="length_box"></textarea>
                                 <span class="length_text"></span>
                             </div>
                         </div>
@@ -47,34 +47,13 @@
                 </div>
                 <div class="steps_column">
                     <div class="col-1">
-                        <b>URL адреса</b>
+                        <b>Хто є вашим клієнтом</b>
                     </div>
                     <div class="col-2">
-                        <div class="two_column">
-                            <div class="two_column-inner">
-                                <input type="text">
-                            </div>
-                            <div class="two_column-inner">
-                                <label class="two_column-checkbox">
-                                    <input type="checkbox">
-                                    <span>Власний домен</span>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="steps_column">
-                    <div class="col-1">
-                        <b>Адреса <span>*</span></b>
-                    </div>
-                    <div class="col-2">
-                        <div class="map_block">
-                           <div class="search_wrap">
-                               <input type="text" placeholder="Введіть адресу">
-                               <a href="#"><svg class="icon"><use xlink:href="./images/sprite.svg#search"></use></svg></a>
-                           </div>
-                            <div class="map_wrap">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5397.1174624978385!2d11.69109257885602!3d47.44004711669583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d7ed8a75a7c3b%3A0xf7aafb066e30a930!2zNjIxMyBQZXJ0aXNhdSwg0JDQstGB0YLRgNGW0Y8!5e0!3m2!1suk!2sua!4v1661246262659!5m2!1suk!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <textarea placeholder="Опишіть ваших клієнтів, цільову адуіторію" maxlength="300" class="length_box"></textarea>
+                                <span class="length_text"></span>
                             </div>
                         </div>
                     </div>
@@ -84,85 +63,84 @@
                         <b>Графік роботи <span>*</span></b>
                     </div>
                     <div class="col-2">
+                        <span class="steps_subtitle">Перевага №1</span>
                         <div class="input_row">
                             <div class="input_wrap">
-                                <input type="text" placeholder="Укажіть робочі дні та години">
+                                <input type="text" placeholder="Заголовок переваги 1" maxlength="50" class="length_box">
+                                <span class="length_text"></span>
+                            </div>
+                            <div class="input_wrap">
+                                <input type="text" placeholder="Опис переваги 1" maxlength="100" class="length_box">
+                                <span class="length_text"></span>
+                            </div>
+                        </div>
+                        <span class="steps_subtitle">Оберіть відповідну іконку</span>
+                        <div class="dropdown order_delivery">
+                            <div class="overflow"><span><img src="./images/select-icon-1.png"></span><button type="button" class="drop_arrow"></button></div>
+                            <ul>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                            </ul>
+                        </div>
+                        <hr class="steps_padding">
+
+                        <span class="steps_subtitle">Перевага №2</span>
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <input type="text" placeholder="Заголовок переваги 2" maxlength="50" class="length_box">
+                                <span class="length_text"></span>
+                            </div>
+                            <div class="input_wrap">
+                                <input type="text" placeholder="Опис переваги 2" maxlength="100" class="length_box">
+                                <span class="length_text"></span>
+                            </div>
+                        </div>
+                        <span class="steps_subtitle">Оберіть відповідну іконку</span>
+                        <div class="dropdown order_delivery">
+                            <div class="overflow"><span><img src="./images/select-icon-1.png"></span><button type="button" class="drop_arrow"></button></div>
+                            <ul>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                            </ul>
+                        </div>
+                        <hr class="steps_padding">
+
+                        <a href="#" class="add_block"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати ще</a>
+                    </div>
+                </div>
+                <div class="steps_column">
+                    <div class="col-1">
+                        <b>Додатковий опис</b>
+                    </div>
+                    <div class="col-2">
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <textarea placeholder="Опишіть більш детально вашу діяльність" maxlength="300" class="length_box"></textarea>
+                                <span class="length_text"></span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="steps_column">
                     <div class="col-1">
-                        <b>Номер телефону <span>*</span></b>
+                        <b>Головне фото <span>*</span></b>
+                        <small>для шапки сайту на фон, рекомендовані розміри 1920x800px</small>
                     </div>
                     <div class="col-2">
-                        <div class="two_column">
-                            <div class="two_column-inner">
-                                <input type="text">
+                        <div class="select_file">
+                            <div class="file">
+                                <div class="col-1">
+                                    <span>Перетягніть файл сюди або виберіть (.png, .jpeg, .svg, .ai). Максимальний розмір файлу 5 Мб</span>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="btn btn_light">Вибрати файл</a>
+                                    <span class="name_file">test.jpg<a href="#" class="delete_file">delete</a></span>
+                                </div>
                             </div>
-                            <div class="two_column-inner">
-                                <a href="#" class="add_block"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати номер телефону</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="steps_column">
-                    <div class="col-1">
-                        <b>Месенджери</b>
-                    </div>
-                    <div class="col-2">
-                        <div class="column_social">
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_viber"></use></svg>
-                                <input type="text" placeholder="Viber">
-                            </label>
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_telegram"></use></svg>
-                                <input type="text" placeholder="Telegram">
-                            </label>
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_whatsapp"></use></svg>
-                                <input type="text" placeholder="Whatsapp">
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="steps_column">
-                    <div class="col-1">
-                        <b>Офіційні сторінки в мережах</b>
-                    </div>
-                    <div class="col-2">
-                        <div class="column_social">
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_facebook"></use></svg>
-                                <input type="text" placeholder="Facebook">
-                            </label>
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_instagram"></use></svg>
-                                <input type="text" placeholder="Instagram">
-                            </label>
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_linkedin"></use></svg>
-                                <input type="text" placeholder="Linkedin">
-                            </label>
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_youtube"></use></svg>
-                                <input type="text" placeholder="Youtube">
-                            </label>
-                            <label class="social_item">
-                                <svg class="icon"><use xlink:href="./images/sprite.svg#step_pinterest"></use></svg>
-                                <input type="text" placeholder="Pinterest">
-                            </label>
-                        </div>
-                        <span class="steps_subtitle">Інше</span>
-                        <div class="column_social">
-                            <label class="social_item">
-                                <input type="text" placeholder="Введіть назву">
-                            </label>
-                            <label class="social_item">
-                                <input type="text" placeholder="Введіть назву">
-                            </label>
-                            <a href="#" class="add_block"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати ще</a>
                         </div>
                     </div>
                 </div>

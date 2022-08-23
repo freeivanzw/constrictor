@@ -109,7 +109,16 @@ $(function () {
     })
 
 
+
+    $('.length_box').on('input', function () {
+        $(this).next('.length_text')[0].innerHTML = $(this)[0].value.length + '/' + $(this).attr('maxlength');
+    })
+    $('.length_box').trigger('input');
+
+
     $('.order_delivery').dropdown();
     $('.dropdown-dev_stage').dropdown();
     $('.dropdown_fonts').dropdown();
+
+    $('.select_icon').dropdown();
 })
