@@ -24,81 +24,64 @@
         <span class="steps_name">[Назва компанії]</span>
         <div class="steps_progress">
             <div class="steps_progress-nav">
-                <a href="#" class="steps_back">Крок 8 <small>/ 16</small></a>
+                <a href="#" class="steps_back">Крок 13 <small>/ 16</small></a>
                 <b>Ідентифікація</b>
             </div>
-            <div class="steps_progress-line" style="--progress: 50%"></div>
+            <div class="steps_progress-line" style="--progress: 80%"></div>
         </div>
         <div class="steps-content">
             <form class="steps_form">
-                <div class="section_title">Новини:</div>
+                <div class="section_title">Портфоліо:</div>
                 <div class="steps_column">
                     <div class="col-1">
-                        <b>Новина №1</b>
+                        <b>Результат вашої роботи №1</b>
                     </div>
                     <div class="col-2">
-                        <div class="add_news news_selected">
-                           <div class="news_header">
-                               <div class="input_wrap">
-                                   <input type="text" placeholder="Заголовок новини 1" maxlength="10" class="length_box">
-                                   <span class="length_text"></span>
-                               </div>
-                               <div class="date_wrap">
-                                   <svg class="icon"><use xlink:href="./images/sprite.svg#date"></use></svg>
-                                   <input type="date" placeholder="Дата публікації">
-                               </div>
-                               <div class="news_control">
-                                   <a href="#" class="news_edit"><svg class="icon"><use xlink:href="./images/sprite.svg#edit"></use></svg></a>
-                                   <a href="#" class="news_delete"><svg class="icon"><use xlink:href="./images/sprite.svg#trash"></use></svg></a>
-                               </div>
-                           </div>
-                            <div class="news_content">
-                                <div class="input_wrap">
-                                    <textarea placeholder="Короткий анонс новини 1" maxlength="200" class="length_box"></textarea>
-                                    <span class="length_text"></span>
-                                </div>
-                                <div class="input_wrap">
-                                    <textarea placeholder="Текст новини 1. Для того, щоб стаття виглядала добре, рекомендуємо виділити заголовки, абзаци" maxlength="10000" class="length_box resize_textarea"></textarea>
-                                    <span class="length_text"></span>
-                                </div>
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <textarea placeholder="Опишіть, що отримують ваші клієнти після співпраці з вами" maxlength="300" class="length_box"></textarea>
+                                <span class="length_text"></span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="steps_column">
                     <div class="col-1">
-                        <b>Новина №2</b>
+                        <b>Додайте фото задоволених клієнтів</b>
                     </div>
                     <div class="col-2">
-                        <div class="add_news">
-                            <div class="news_header">
-                                <div class="input_wrap">
-                                    <input type="text" placeholder="Заголовок новини 1" maxlength="10" class="length_box">
-                                    <span class="length_text"></span>
-                                </div>
-                                <div class="date_wrap">
-                                    <svg class="icon"><use xlink:href="./images/sprite.svg#date"></use></svg>
-                                    <input type="date" placeholder="Дата публікації">
-                                </div>
-                                <div class="news_control">
-                                    <a href="#" class="news_edit"><svg class="icon"><use xlink:href="./images/sprite.svg#edit"></use></svg></a>
-                                    <a href="#" class="news_delete"><svg class="icon"><use xlink:href="./images/sprite.svg#trash"></use></svg></a>
-                                </div>
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <input type="text" placeholder="Опишіть, що є на цьому фото" maxlength="50" class="length_box">
+                                <span class="length_text"></span>
                             </div>
-                            <div class="news_content">
-                                <div class="input_wrap">
-                                    <textarea placeholder="Короткий анонс новини 1" maxlength="200" class="length_box"></textarea>
-                                    <span class="length_text"></span>
+                        </div>
+                        <div class="select_file">
+                            <ul class="file_list">
+                                <li>
+                                    <b>arkadii-cowoker.jpeg</b>
+                                    <span>4.56 Мб</span>
+                                    <a href="#" class="delete"><svg class="icon"><use xlink:href="./images/sprite.svg#trash"></use></svg></a>
+                                </li>
+                                <li>
+                                    <b>arkadii-cowoker.jpeg</b>
+                                    <span>4.56 Мб</span>
+                                    <a href="#" class="delete"><svg class="icon"><use xlink:href="./images/sprite.svg#trash"></use></svg></a>
+                                </li>
+                            </ul>
+                            <div class="file">
+                                <div class="col-1">
+                                    <span>Перетягніть файл сюди або виберіть (.png, .jpeg, .svg, .ai). Максимальний розмір файлу 5 Мб</span>
                                 </div>
-                                <div class="input_wrap">
-                                    <textarea placeholder="Текст новини 1. Для того, щоб стаття виглядала добре, рекомендуємо виділити заголовки, абзаци" maxlength="10000" class="length_box resize_textarea"></textarea>
-                                    <span class="length_text"></span>
+                                <div class="col-2">
+                                    <a href="#" class="btn btn_light">Вибрати файл</a>
+                                    <span class="name_file">test.jpg<a href="#" class="delete_file">delete</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="add_block add_news"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати новину</a>
+                <a href="#" class="add_block add_revievs"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати роботу</a>
                 <button type="submit" class="btn">Наступний крок</button>
             </form>
         </div>

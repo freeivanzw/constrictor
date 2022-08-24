@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sufix</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<!-- КРОКИ АНКЕТИ -->
+<section class="steps">
+    <div class="centre slim_centre">
+        <span class="steps_name">[Назва компанії]</span>
+        <div class="steps_progress">
+            <div class="steps_progress-nav">
+                <a href="#" class="steps_back">Крок 10 <small>/ 16</small></a>
+                <b>Ідентифікація</b>
+            </div>
+            <div class="steps_progress-line" style="--progress: 60%"></div>
+        </div>
+        <div class="steps-content">
+            <form class="steps_form">
+                <div class="section_title">Додайте детальну інформацію про кожну вашу послугу:</div>
+                <div class="steps_column">
+                    <div class="col-1">
+                        <b>Назва послуги <span>*</span></b>
+                    </div>
+                    <div class="col-2">
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <input type="text" placeholder="Сайт-резюме" maxlength="50" class="length_box">
+                                <span class="length_text"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps_column">
+                    <div class="col-1">
+                        <b>Опис послуги <span>*</span></b>
+                    </div>
+                    <div class="col-2">
+                        <div class="input_row">
+                            <div class="input_wrap">
+                                <textarea placeholder="Сайт-резюме" maxlength="50" class="length_box"></textarea>
+                                <span class="length_text"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps_column">
+                    <div class="col-1">
+                        <b>Фотографія послуги <span>*</span></b>
+                    </div>
+                    <div class="col-2">
+                        <div class="select_file">
+                            <div class="file">
+                                <div class="col-1">
+                                    <b>Завантажити світлий</b>
+                                    <span>Перетягніть файл сюди або виберіть (.png, .jpeg, .svg, .ai). Максимальний розмір файлу 5 Мб</span>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="btn btn_light">Вибрати файл</a>
+                                    <span class="name_file">test.jpg<a href="#" class="delete_file">delete</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps_column">
+                    <div class="col-1">
+                        <b>Вартість послуги <span>*</span></b>
+                    </div>
+                    <div class="col-2">
+                        <div class="two_column second_big">
+                            <div class="two_column-inner">
+                                <input type="text" placeholder="Ціна та валюта">
+                            </div>
+                            <div class="two_column-inner">
+                                <div class="input_wrap">
+                                    <input type="text" placeholder="Пояснення до ціни" maxlength="50" class="length_box">
+                                    <span class="length_text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps_column">
+                    <div class="col-1">
+                        <b>Термін виконання <span>*</span></b>
+                    </div>
+                    <div class="col-2">
+                        <div class="two_column">
+                            <div class="two_column-inner">
+                                <span class="two_column-title">Приступити можемо через</span>
+                                <input type="text" placeholder="Вкажіть кількість днів, тижнів або місяців">
+                            </div>
+                            <div class="two_column-inner">
+                                <span class="two_column-title">Виконання послуги триватиме</span>
+                                <input type="text" placeholder="Вкажіть кількість днів, тижнів або місяців">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open_more-steps">
+                    <span class="open_more-title">Додаткова інформація по послузі</span>
+                    <a href="#" class="open_more-btn btn btn_contrast">Заповнити</a>
+                </div>
+                <div class="open_more_box hidden">
+                    <div class="steps_column">
+                        <div class="col-1">
+                            <b>Перевага послуги 1</b>
+                        </div>
+                        <div class="col-2">
+                            <span class="steps_subtitle">Перевага №1</span>
+                            <div class="input_row">
+                                <div class="input_wrap">
+                                    <input type="text" placeholder="Заголовок переваги 1" maxlength="50" class="length_box">
+                                    <span class="length_text"></span>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" placeholder="Опис переваги 1" maxlength="100" class="length_box">
+                                    <span class="length_text"></span>
+                                </div>
+                            </div>
+                            <span class="steps_subtitle">Оберіть відповідну іконку</span>
+                            <div class="dropdown order_delivery">
+                                <div class="overflow"><span><img src="./images/select-icon-1.png"></span><button type="button" class="drop_arrow"></button></div>
+                                <ul>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                </ul>
+                            </div>
+                            <hr class="steps_padding">
+
+                            <span class="steps_subtitle">Перевага №2</span>
+                            <div class="input_row">
+                                <div class="input_wrap">
+                                    <input type="text" placeholder="Заголовок переваги 2" maxlength="50" class="length_box">
+                                    <span class="length_text"></span>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" placeholder="Опис переваги 2" maxlength="100" class="length_box">
+                                    <span class="length_text"></span>
+                                </div>
+                            </div>
+                            <span class="steps_subtitle">Оберіть відповідну іконку</span>
+                            <div class="dropdown order_delivery">
+                                <div class="overflow"><span><img src="./images/select-icon-1.png"></span><button type="button" class="drop_arrow"></button></div>
+                                <ul>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                    <li><a href="#"><img src="./images/select-icon-1.png"></a></li>
+                                </ul>
+                            </div>
+                            <hr class="steps_padding">
+
+                            <a href="#" class="add_block"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати ще</a>
+                        </div>
+                    </div>
+                    <div class="steps_column">
+                        <div class="col-1">
+                            <b>Додатковий опис</b>
+                        </div>
+                        <div class="col-2">
+                            <div class="input_row">
+                                <div class="input_wrap">
+                                    <textarea placeholder="Опишіть більш детально вашу послугу" maxlength="1000" class="length_box"></textarea>
+                                    <span class="length_text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps_column">
+                        <div class="col-1">
+                            <b>Фотогарелея <span>*</span></b>
+                            <small>більше фото послуги</small>
+                        </div>
+                        <div class="col-2">
+                            <div class="select_file">
+                                <div class="file">
+                                    <div class="col-1">
+                                        <b>Завантажити світлий</b>
+                                        <span>Перетягніть файли сюди або виберіть (.png, .jpeg). Максимальний розмір одного файлу 5 Мб Ви можете завантажити до 5 фотографій</span>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#" class="btn btn_light">Вибрати файл</a>
+                                        <span class="name_file">test.jpg<a href="#" class="delete_file">delete</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps_column">
+                        <div class="col-1">
+                            <b>Фотографія послуги <span>*</span></b>
+                            <small>фото, які показують що отримає ваш клієнт, якщо скористається послугою</small>
+                        </div>
+                        <div class="col-2">
+                            <div class="select_file">
+                                <div class="file">
+                                    <div class="col-1">
+                                        <b>Завантажити світлий</b>
+                                        <span>Перетягніть файли сюди або виберіть (.png, .jpeg). Максимальний розмір одного файлу 5 Мб Ви можете завантажити до 15 фотографій</span>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#" class="btn btn_light">Вибрати файл</a>
+                                        <span class="name_file">test.jpg<a href="#" class="delete_file">delete</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn_light add_service"><svg class="icon"><use xlink:href="./images/sprite.svg#plus"></use></svg>Додати послугу</a>
+                <button type="submit" class="btn">Наступний крок</button>
+            </form>
+        </div>
+    </div>
+</section>
+<div class="styleguide" hidden>
+    <article>
+        <h1>hello world1</h1>
+        <br>
+        <div class="main_title">hello world1</div>
+        <br>
+        <h2>hello world1</h2>
+        <br>
+        <div class="section_title">hello world1</div>
+        <br>
+        <h3>hello world1</h3>
+        <br>
+        <div class="item_title">hello world1</div>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nesciunt provident quae recusandae tenetur? A ab ad aliquam asperiores culpa cum debitis dicta distinctio dolores doloribus eaque eius eveniet expedita facilis, id magni, nesciunt quaerat quibusdam quo repellendus tempora tenetur velit, voluptatem voluptatibus voluptatum. Dicta esse impedit ipsa ipsum laboriosam?</p>
+        <br>
+        <ul>
+            <li>test test test</li>
+            <li>test test test</li>
+            <li>test test test</li>
+            <li>test test test</li>
+        </ul>
+        <ol>
+            <li>test test test</li>
+            <li>test test test</li>
+            <li>test test test</li>
+            <li>test test test</li>
+            <li>test test test</li>
+        </ol>
+        <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias assumenda autem consequuntur corporis culpa dolor eligendi eveniet excepturi illo ipsum laudantium magnam natus nemo nihil nobis officia omnis quaerat quasi quidem quod reprehenderit, soluta, tenetur veniam veritatis? Ad, sequi!
+        </blockquote>
+    </article>
+    <a href="#" class="btn">тикалка-кнопка</a>
+    <a href="#" class="btn not_active">тикалка-кнопка</a>
+    <a href="#" class="btn btn_contrast">тикалка-кнопка</a>
+    <a href="#" class="btn btn_contrast not_active">тикалка-кнопка</a>
+
+    <a href="#" class="style_link"><span>передзвоніть мені</span></a>
+    <a href="#" class="style_link"><svg class="icon"><use xlink:href="./images/sprite.svg#btn_arrow"></use></svg><span>передзвоніть мені</span><svg class="icon"><use xlink:href="./images/sprite.svg#btn_arrow"></use></svg></a>
+
+    <a href="#" class="icon_link"><svg class="icon"><use xlink:href="./images/sprite.svg#btn_arrow"></use></svg></a>
+
+    <a href="#" class="btn_up">вверх</a>
+
+    <a href="#">Політика конфіденційності</a>
+
+    <div class="dropdown order_delivery dropdown_selected"><!-- якщо вибрано якийсь варіант з випадайки, потрібно давати сюди клас dropdown_selected -->
+        <div class="overflow"><span>Спосіб доставки</span><button type="button" class="drop_arrow"></button></div>
+        <ul>
+            <li><a href="#">Нова Пошта</a></li>
+            <li><a href="#">Нова Пошта</a></li>
+            <li><a href="#">Нова Пошта</a></li>
+            <li><a href="#">Нова Пошта</a></li>
+        </ul>
+    </div>
+
+    <input type="text" placeholder="Введіть ваше ім'я">
+    <input type="text" placeholder="Введіть ваше ім'я" disabled>
+    <input type="password" placeholder="Введіть ваше ім'я">
+    <input type="tel" placeholder="Введіть ваше ім'я">
+    <input type="number" value="1">
+    <input type="text" placeholder="Введіть ваше ім'я">
+
+    <textarea placeholder="Введіть ваше ім'я"></textarea>
+
+
+</div>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/plugins/slick.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

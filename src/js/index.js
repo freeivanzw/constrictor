@@ -108,12 +108,17 @@ $(function () {
         $('.test_file')[0].value = '';
     })
 
-
-
     $('.length_box').on('input', function () {
         $(this).next('.length_text')[0].innerHTML = $(this)[0].value.length + '/' + $(this).attr('maxlength');
     })
     $('.length_box').trigger('input');
+
+    $('.open_more-btn').on('click', function (e) {
+        e.preventDefault();
+        $(this).toggleClass('active');
+
+        $(this).parent('.open_more-steps').next('.open_more_box').toggleClass('hidden');
+    })
 
 
     $('.order_delivery').dropdown();
