@@ -32,6 +32,7 @@
     font-weight: 500;
     position: relative;
     padding-left: 25px;
+    transition: 0.3s;
 }
 
 .steps_back::before {
@@ -55,6 +56,10 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%) rotate(45deg);
+}
+
+.steps_back:not(.steps_disable):hover {
+    opacity: 0.7;
 }
 
 .steps_back.steps_disable {
@@ -363,8 +368,16 @@
 }
 
 .steps_column .dropdown {
-    border: 1px solid #CCCDCE;
+    border: none;
     border-radius: 4px;
+}
+
+.steps_column .dropdown .overflow {
+    border: 1px solid #CCCDCE;
+}
+
+.steps_column .dropdown:hover .overflow {
+    border-color: #FFDCE2;
 }
 
 .file_list {
@@ -617,6 +630,11 @@
     border-radius: 4px;
     border: 1px solid #EBEDF0;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.two_column-checkbox:hover Span {
+    border-color: #FFDCE2;
 }
 
 .two_column-checkbox Span::before {
@@ -806,6 +824,11 @@
 .news_control A {
     display: block;
     padding: 12px;
+    transition: 0.3s;
+}
+
+.news_control A:hover {
+    opacity: 0.7;
 }
 
 .news_control .icon {

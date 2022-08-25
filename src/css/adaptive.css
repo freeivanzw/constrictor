@@ -49,6 +49,14 @@
     right: auto;
   }
 
+  .file_list .delete .icon {
+    transition: 0.3s;
+  }
+
+  .file_list .delete:hover .icon {
+    fill: var(--text-color);
+  }
+
   .select_file:not(.select_file-grid) .file {
     display: flex;
     flex-direction: row;
@@ -276,6 +284,10 @@ h3 {
 
   .steps_form Button[type=submit] {
     margin-left: 300px;
+  }
+
+  .steps_form Button[type=submit].not_padding {
+    margin-left: 0;
   }
 
   .input_wrap Textarea {
